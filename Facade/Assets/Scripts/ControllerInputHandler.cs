@@ -7,7 +7,8 @@ public class ControllerInputHandler : MonoBehaviour
 
     private VRTK_ControllerEvents controller;
 
-    private BoxCreator box;
+    //private BoxCreator box;
+    private Controller areaObjectController;
 
     [HideInInspector]
     public bool triggerDown = false;
@@ -20,6 +21,8 @@ public class ControllerInputHandler : MonoBehaviour
 
     [HideInInspector]
     public Vector3 currentControllerLocation;
+
+    public GameObject AreaObjectPrefab;
 
     // Use this for initialization
     void Start()
@@ -38,38 +41,42 @@ public class ControllerInputHandler : MonoBehaviour
 
     private void TriggerClicked(object sender, ControllerInteractionEventArgs e)
     {
+        // don't register this if the user is holding down the touchpad. In that case the trigger click is used for interating with menu objects.
+        if (controller.touchpadPressed)
+        {
+            return;
+        }
+
         triggerDown = true;
         triggerDownLocation = transform.position;
-        currentControllerLocation = transform.position;
+        currentControllerLocation = transform.position;  
 
-        // Create Box
-        box = GetComponent<BoxCreator>();
-        box.CreateBox(triggerDownLocation);
+        GameObject areaObject = (GameObject)Instantiate(AreaObjectPrefab, triggerDownLocation, Quaternion.identity);
+        areaObjectController = areaObject.GetComponent<Controller>();
     }
 
     private void TriggerReleased(object sender, ControllerInteractionEventArgs e)
     {
         triggerDown = false;
         triggerUpLocation = this.transform.position;
-        currentControllerLocation = transform.position;
-        box.CreateButtons(triggerDownLocation, currentControllerLocation);
+        currentControllerLocation = transform.position;        
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (!triggerDown)
         {
             return;
         }
 
-        if (box == null)
+        if (areaObjectController == null)
         {
-            Debug.LogError("BoxCreator is not attached to the gameObject");
+            Debug.LogError("areaObjectController is not attached to the gameObject");
             return;
         }
 
         currentControllerLocation = transform.position;        
 
-        box.UpdateBox(triggerDownLocation, currentControllerLocation);
+        areaObjectController.UpdateScale(triggerDownLocation, currentControllerLocation);
     }
 }
