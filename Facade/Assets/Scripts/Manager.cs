@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System.IO;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,7 +15,9 @@ public class Manager : MonoBehaviour {
     public static event ObjectSpawnEventHandler NewGameObjectSpawned;
     public static event ObjectSpawnEventHandler NewGameObjectDespawned;
 
-
+    private string meshPrefabStorePath = "Prefabs/Store/";
+    private TextAsset jsonText;
+    public static MeshDataCollection meshDataCollection;
 
     public static void AreaObjectSelected(GameObject areaObject)
     {
@@ -62,8 +65,9 @@ public class Manager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
-	}
+		jsonText = Resources.Load<TextAsset>(meshPrefabStorePath + "meshMeta");
+        meshDataCollection = JsonUtility.FromJson<MeshDataCollection>(jsonText.text);
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using VRTK;
 
-[RequireComponent(typeof(VRTK_ControllerEvents), typeof(BoxCreator))]
+[RequireComponent(typeof(VRTK_ControllerEvents))]
 public class ControllerInputHandler : MonoBehaviour
 {
 

@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Attributes : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public List<string> Tags;
+    public float width;
+    public float height;
+    public float depth;
+    public Vector3 center;
+    public Quaternion rotation;
+
+    
 }

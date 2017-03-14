@@ -9,22 +9,25 @@ public class AreaObjectInterface : MonoBehaviour {
         MainUI
     }
 
+    private InputField inputField;
+
+    private UnityEngine.Events.UnityAction deleteAction;
+    
+
     private bool isSelected = false;
 
+    [HideInInspector]
     public GameObject MainUI;
     
     void Start()
-    {
-        MainUI = transform.GetChild((int)children.MainUI).gameObject;
-        UnityEngine.Events.UnityAction deleteAction = () => { Destroy(); };
-        MainUI.transform.GetChild(0).FindChild("Delete").GetComponent<Button>().onClick.AddListener(deleteAction);
-        
+    {        
+        deleteAction = () => { Destroy(); };
     }
     
     void Destroy()
     {
         // delete top most parent
-        DestroyImmediate(transform.root.gameObject);
+        Destroy(transform.root.gameObject, .1f);
     }
 
     public bool IsSelected
@@ -34,8 +37,23 @@ public class AreaObjectInterface : MonoBehaviour {
         }
         set
         {            
+            if(value == false)
+            {
+                Destroy(MainUI, .1f);
+            }else
+            {                
+                MainUI = (GameObject)Instantiate(Resources.Load("Prefabs/MainUI"), transform, false);
+                //MainUI.transform.rotation = transform.rotation;
+                //MainUI.transform.SetParent(transform);
+                MainUI.transform.FindChild("ButtonsCanvas").FindChild("Delete").GetComponent<Button>().onClick.AddListener(deleteAction);
+            }
+
             isSelected = value;
-            MainUI.SetActive(value);
+
+            if(MainUI != null)
+            {
+                MainUI.SetActive(value);
+            }            
         }
     }
 }

@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 using VRTK;
 
 public class Controller : VRTK_InteractableObject
@@ -18,6 +21,9 @@ public class Controller : VRTK_InteractableObject
     private Attributes attributes;
     private Color originalColor;
     private GameObject mainCam;
+    private IList<MeshData> matches;
+    private int currentMatchIndex = 0;
+    private GameObject currentlyLoadedMesh;
 
     public bool IsSelected
     {
@@ -39,7 +45,7 @@ public class Controller : VRTK_InteractableObject
         userInterfaceScript = userInterface.GetComponent<AreaObjectInterface>();
         attributes = GetComponent<Attributes>();
         originalColor = areaMesh.GetComponent<Renderer>().material.color;
-        mainCam = GameObject.FindGameObjectWithTag("MainCamera");        
+        mainCam = GameObject.FindGameObjectWithTag("MainCamera");
     }
 
     private void Destroy()
@@ -54,13 +60,13 @@ public class Controller : VRTK_InteractableObject
         // change our color
         areaMesh.GetComponent<Renderer>().material.color = Color.red;
 
-        IsSelected = true;
-
-        // move and rotate the UI to side closest to the player
-        SetRotation();
+        IsSelected = true;        
 
         // emit selected event
         Manager.AreaObjectSelected(gameObject);
+
+        // move and rotate the UI to side closest to the player
+        SetRotation();
     }
 
     public override void StopUsing(GameObject usingObject)
@@ -78,23 +84,29 @@ public class Controller : VRTK_InteractableObject
 
     public void UpdateScale(Vector3 startCorner, Vector3 endCorner)
     {
+        if(areaMesh == null)
+        {
+            return;
+        }
+
         // center
-        Vector3 center = new Vector3((startCorner.x + endCorner.x) * 0.5f, endCorner.y * 0.5f, (startCorner.z + endCorner.z) * 0.5f);
+        attributes.center = new Vector3((startCorner.x + endCorner.x) * 0.5f, endCorner.y * 0.5f, (startCorner.z + endCorner.z) * 0.5f);
 
         // width : x
-        float width = Vector3.Distance(startCorner, new Vector3(endCorner.x, startCorner.y, startCorner.z));
+        attributes.width = Vector3.Distance(startCorner, new Vector3(endCorner.x, startCorner.y, startCorner.z));
 
         // height : y
-        float height = endCorner.y;
+        attributes.height = endCorner.y;
 
         // depth : z
-        float depth = Vector3.Distance(startCorner, new Vector3(startCorner.x, startCorner.y, endCorner.z));
+        attributes.depth = Vector3.Distance(startCorner, new Vector3(startCorner.x, startCorner.y, endCorner.z));
 
         // always translate the parent
-        transform.position = center;
+        transform.position = attributes.center;
 
         // apply scale changes to the child component (areaMesh)
-        areaMesh.transform.localScale = new Vector3(width, height, depth);
+        areaMesh.transform.localScale = new Vector3(attributes.width, attributes.height, attributes.depth);
+        
     }
 
     public void SetLocation(Vector3 position)
@@ -133,6 +145,13 @@ public class Controller : VRTK_InteractableObject
 
         userInterface.transform.position = closestAnchor.position;
         userInterface.transform.rotation = closestAnchor.rotation;
+        GameObject origin = new GameObject();
+        origin.transform.position = attributes.center;
+        origin.transform.LookAt(closestAnchor);
+        attributes.rotation = origin.transform.rotation;
+        Destroy(origin);
+
+        dynamicMesh.transform.rotation = attributes.rotation;
     }
 
     public void ShowInterface()
@@ -143,5 +162,49 @@ public class Controller : VRTK_InteractableObject
     public void HideInterface()
     {
         IsSelected = false;
+    }
+
+    private void LoadNextMesh()
+    {
+        areaMesh.SetActive(false);
+
+        if(currentMatchIndex == matches.Count)
+        {
+            if (currentlyLoadedMesh != null)
+            {
+                DestroyImmediate(currentlyLoadedMesh);
+            }
+            areaMesh.SetActive(true);
+            currentMatchIndex = 0;
+
+        }
+        else
+        {
+            MeshData meshMetaData = matches[currentMatchIndex];
+
+            if (currentlyLoadedMesh != null)
+            {
+                DestroyImmediate(currentlyLoadedMesh);
+            }
+
+            currentlyLoadedMesh = (GameObject)Instantiate(Resources.Load(meshMetaData.prefabPath), dynamicMesh.transform.position, dynamicMesh.transform.rotation, dynamicMesh.transform);
+            currentMatchIndex++;
+        }       
+    }
+
+    public void LoadMatchingMesh()
+    {
+        // get all matching models
+        var possibleMatches = Manager.meshDataCollection.meshes.Where(m => attributes.Tags.Any<string>(t => m.tags.Any<string>(t1 => t1 == t)));
+        matches = possibleMatches.ToList<MeshData>();
+
+        Debug.Log("Ran LoadMatchignMeshes");
+        Debug.Log("Mesh Size: " + matches.Count<MeshData>());
+        foreach(MeshData meshData in matches)
+        {
+            Debug.Log(meshData.name);
+        }
+
+        LoadNextMesh();
     }
 }

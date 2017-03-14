@@ -5,7 +5,8 @@
 
     public class UI_Keyboard : MonoBehaviour
     {
-        private InputField input;
+        [HideInInspector]
+        public InputField input;
 
         public void ClickKey(string character)
         {
@@ -22,8 +23,24 @@
 
         public void Enter()
         {
-            Debug.Log("You've typed [" + input.text + "]");
+            Debug.Log("You've typed [" + input.text.ToLower() + "]");
+
+            Attributes attributes = transform.root.GetComponent<Attributes>();
+            attributes.Tags.Add(input.text.ToLower());
             input.text = "";
+        }
+
+        public void Next()
+        {
+            // get root transform
+            Transform areaObject = transform.root;
+            if(areaObject == null)
+            {
+                Debug.Log("Can't get areaObject");
+                return;
+            }
+
+            areaObject.GetComponent<Controller>().LoadMatchingMesh();
         }
 
         private void Start()
