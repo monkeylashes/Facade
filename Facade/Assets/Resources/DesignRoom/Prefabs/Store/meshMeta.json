@@ -1,0 +1,28 @@
+{ "meshes" : 
+	[
+		{
+		"name":"sofa1",
+		"dimensionX":0.90,
+		"dimensionY":0.88,
+		"dimensionZ":0.23,
+		"tags":["couch", "sofa"],
+		"prefabPath":"DesignRoom/Prefabs/Store/sofa1"
+		},
+		{
+		"name":"BoConceptImola",
+		"dimensionX":0.94,
+		"dimensionY":1,
+		"dimensionZ":1,
+		"tags":["chair"],
+		"prefabPath":"DesignRoom/Prefabs/Store/BoConceptImola"
+		},
+		{
+		"name":"EamesDSWChair",
+		"dimensionX":0.50,
+		"dimensionY":0.88,
+		"dimensionZ":0.62,
+		"tags":["chair"],
+		"prefabPath":"DesignRoom/Prefabs/Store/EamesDSWChair"
+		}	
+	]
+}
