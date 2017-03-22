@@ -120,27 +120,30 @@ public class Controller : VRTK_InteractableObject
         
     }
 
-    //protected virtual void IgnoreColliders(GameObject touchingObject)
-    //{
-    //    if (ignoredColliders != null && !currentIgnoredColliders.Contains(touchingObject))
-    //    {
-    //        bool objectIgnored = false;
-    //        Collider[] touchingColliders = touchingObject.GetComponentsInChildren<Collider>();
-    //        for (int i = 0; i < ignoredColliders.Length; i++)
-    //        {
-    //            for (int j = 0; j < touchingColliders.Length; j++)
-    //            {
-    //                Physics.IgnoreCollision(touchingColliders[j], ignoredColliders[i]);
-    //                objectIgnored = true;
-    //            }
-    //        }
+    public void SetBoundingBox()
+    {        
+        (GetComponent<Collider>() as BoxCollider).size = areaMesh.transform.localScale;
+    }
 
-    //        if (objectIgnored)
-    //        {
-    //            currentIgnoredColliders.Add(touchingObject);
-    //        }
-    //    }
-    //}
+    protected override void IgnoreColliders(GameObject touchingObject)
+    {
+        base.IgnoreColliders(touchingObject);        
+
+        if (touchingObject.layer == LayerMask.NameToLayer("IgnoreColliders"))
+        {
+            currentIgnoredColliders.Add(touchingObject);
+
+            Collider[] touchingColliders = touchingObject.GetComponentsInChildren<Collider>();
+            foreach (GameObject ignoredGameObject in currentIgnoredColliders)
+            {
+                Collider ignoredCollider = ignoredGameObject.GetComponent<Collider>();
+                foreach (Collider touchingCollider in touchingColliders)
+                {
+                    Physics.IgnoreCollision(touchingCollider, ignoredCollider);
+                }                
+            }            
+        }
+    }
 
     ///// <summary>
     ///// The ResetIgnoredColliders method is used to clear any stored ignored colliders in case the `Ignored Colliders` array parameter is changed at runtime. This needs to be called manually if changes are made at runtime.

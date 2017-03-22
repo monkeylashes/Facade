@@ -57,13 +57,17 @@ public class ControllerInputHandler : MonoBehaviour
     {
         triggerDown = false;
         triggerUpLocation = this.transform.position;
-        currentControllerLocation = transform.position;        
+        currentControllerLocation = transform.position;
+        if (areaObjectController != null)
+        {
+            areaObjectController.SetBoundingBox();
+        }
     }
 
     void Update()
     {
         if (!triggerDown)
-        {
+        {         
             return;
         }
 
