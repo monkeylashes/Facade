@@ -14,9 +14,9 @@ public class Controller : VRTK_InteractableObject
         UserInterface
     }
 
-    private GameObject areaMesh;
-    private GameObject dynamicMesh;
-    private GameObject userInterface;
+    public GameObject areaMesh;
+    public GameObject dynamicMesh;
+    public GameObject userInterface;
     private AreaObjectInterface userInterfaceScript;
     private Attributes attributes;
     private Color originalColor;
@@ -44,9 +44,9 @@ public class Controller : VRTK_InteractableObject
     
     void Start()
     {
-        areaMesh = transform.GetChild((int)Children.AreaMesh).gameObject;
-        dynamicMesh = transform.GetChild((int)Children.DynamicMesh).gameObject;
-        userInterface = transform.GetChild((int)Children.UserInterface).gameObject;
+        //areaMesh = transform.GetChild((int)Children.AreaMesh).gameObject;
+        //dynamicMesh = transform.GetChild((int)Children.DynamicMesh).gameObject;
+        //userInterface = transform.GetChild((int)Children.UserInterface).gameObject;
         userInterfaceScript = userInterface.GetComponent<AreaObjectInterface>();
         attributes = GetComponent<Attributes>();
         originalColor = areaMesh.GetComponent<Renderer>().material.color;
@@ -248,7 +248,7 @@ public class Controller : VRTK_InteractableObject
     public void LoadMatchingMesh()
     {
         // get all matching models
-        var possibleMatches = Manager.meshDataCollection.meshes.Where(m => attributes.Tags.Any<string>(t => m.tags.Any<string>(t1 => t1 == t)) && m.dimensionX <= attributes.width && m.dimensionY <= attributes.height && m.dimensionZ <= attributes.depth);
+        var possibleMatches = Manager.meshDataCollection.meshes.Where(m => attributes.Tags.Any<string>(t => m.tags.Any<string>(t1 => t1.Equals(t, System.StringComparison.CurrentCultureIgnoreCase))) && m.dimensionX <= attributes.width && m.dimensionY <= attributes.height && m.dimensionZ <= attributes.depth);
         matches = possibleMatches.ToList<MeshData>();
 
         Debug.Log("Ran LoadMatchignMeshes");
