@@ -1,0 +1,3045 @@
+{
+"meshes" :
+[
+{
+"name": "Books_gr1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr1"
+},
+{
+"name": "Books_gr10",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr10"
+},
+{
+"name": "Books_gr11",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr11"
+},
+{
+"name": "Books_gr12",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr12"
+},
+{
+"name": "Books_gr13",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr13"
+},
+{
+"name": "Books_gr2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr2"
+},
+{
+"name": "Books_gr3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr3"
+},
+{
+"name": "Books_gr4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr4"
+},
+{
+"name": "Books_gr5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr5"
+},
+{
+"name": "Books_gr6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr6"
+},
+{
+"name": "Books_gr7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr7"
+},
+{
+"name": "Books_gr8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr8"
+},
+{
+"name": "Books_gr9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Books"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Books_gr9"
+},
+{
+"name": "Book_cards1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_cards1"
+},
+{
+"name": "Book_cards2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_cards2"
+},
+{
+"name": "Book_open1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_open1"
+},
+{
+"name": "Book_open2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_open2"
+},
+{
+"name": "Book_open3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_open3"
+},
+{
+"name": "Book_scroll1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_scroll1"
+},
+{
+"name": "Book_scroll2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_scroll2"
+},
+{
+"name": "Book_single1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single1"
+},
+{
+"name": "Book_single10",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single10"
+},
+{
+"name": "Book_single11",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single11"
+},
+{
+"name": "Book_single12",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single12"
+},
+{
+"name": "Book_single13",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single13"
+},
+{
+"name": "Book_single14",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single14"
+},
+{
+"name": "Book_single2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single2"
+},
+{
+"name": "Book_single3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single3"
+},
+{
+"name": "Book_single4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single4"
+},
+{
+"name": "Book_single5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single5"
+},
+{
+"name": "Book_single6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single6"
+},
+{
+"name": "Book_single7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single7"
+},
+{
+"name": "Book_single8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single8"
+},
+{
+"name": "Book_single9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single9"
+},
+{
+"name": "Book_single_gr1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single_gr1"
+},
+{
+"name": "Book_single_gr2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single_gr2"
+},
+{
+"name": "Book_single_gr3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single_gr3"
+},
+{
+"name": "Book_single_gr4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Book"],
+"prefabPath": "DesignRoom/Prefabs/Store/Books/Book_single_gr4"
+},
+{
+"name": "Carpet_round1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_round1"
+},
+{
+"name": "Carpet_round2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_round2"
+},
+{
+"name": "Carpet_round3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_round3"
+},
+{
+"name": "Carpet_round4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_round4"
+},
+{
+"name": "Carpet_round5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_round5"
+},
+{
+"name": "Carpet_square1_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square1_1"
+},
+{
+"name": "Carpet_square1_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square1_2"
+},
+{
+"name": "Carpet_square1_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square1_3"
+},
+{
+"name": "Carpet_square2_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square2_1"
+},
+{
+"name": "Carpet_square2_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square2_2"
+},
+{
+"name": "Carpet_square2_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square2_3"
+},
+{
+"name": "Carpet_square3_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square3_1"
+},
+{
+"name": "Carpet_square3_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square3_2"
+},
+{
+"name": "Carpet_square3_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square3_3"
+},
+{
+"name": "Carpet_square4_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square4_1"
+},
+{
+"name": "Carpet_square4_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square4_2"
+},
+{
+"name": "Carpet_square4_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square4_3"
+},
+{
+"name": "Carpet_square4_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square4_4"
+},
+{
+"name": "Carpet_square5_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square5_1"
+},
+{
+"name": "Carpet_square5_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square5_2"
+},
+{
+"name": "Carpet_square5_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Carpet"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Carpet_square5_3"
+},
+{
+"name": "Cloth1A",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth1A"
+},
+{
+"name": "Cloth1B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth1B"
+},
+{
+"name": "Cloth2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth2"
+},
+{
+"name": "Cloth3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth3"
+},
+{
+"name": "Cloth4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth4"
+},
+{
+"name": "Cloth5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth5"
+},
+{
+"name": "Cloth6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth6"
+},
+{
+"name": "Cloth7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth7"
+},
+{
+"name": "Cloth8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cloth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/Cloth8"
+},
+{
+"name": "curtain1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["curtain"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/curtain1"
+},
+{
+"name": "curtain2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["curtain"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/curtain2"
+},
+{
+"name": "curtain3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["curtain"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/curtain3"
+},
+{
+"name": "curtain4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["curtain"],
+"prefabPath": "DesignRoom/Prefabs/Store/Carpets Cloths/curtain4"
+},
+{
+"name": "Fireplace1_fire",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Fireplace"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Fireplace1_fire"
+},
+{
+"name": "Fireplace2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Fireplace"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Fireplace2"
+},
+{
+"name": "Fireplace2_fire",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Fireplace"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Fireplace2_fire"
+},
+{
+"name": "Fireplace3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Fireplace"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Fireplace3"
+},
+{
+"name": "Fireplace3_fire",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Fireplace"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Fireplace3_fire"
+},
+{
+"name": "Hearth1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Hearth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Hearth1"
+},
+{
+"name": "Hearth1_Fire",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Hearth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Hearth1_Fire"
+},
+{
+"name": "Hearth2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Hearth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Hearth2"
+},
+{
+"name": "Hearth2_Fire",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Hearth"],
+"prefabPath": "DesignRoom/Prefabs/Store/Fireplace/Hearth2_Fire"
+},
+{
+"name": "Bed_01",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_01"
+},
+{
+"name": "Bed_02",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_02"
+},
+{
+"name": "Bed_03",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_03"
+},
+{
+"name": "Bed_04",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_04"
+},
+{
+"name": "Bed_05",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_05"
+},
+{
+"name": "Bed_06",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_06"
+},
+{
+"name": "Bed_07",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_07"
+},
+{
+"name": "Bed_08",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_08"
+},
+{
+"name": "Bed_09",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_09"
+},
+{
+"name": "Bed_10",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_10"
+},
+{
+"name": "Bed_11",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_11"
+},
+{
+"name": "Bed_12",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_12"
+},
+{
+"name": "Bed_13",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_13"
+},
+{
+"name": "Bed_14",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_14"
+},
+{
+"name": "Bed_15",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_15"
+},
+{
+"name": "Bed_16",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_16"
+},
+{
+"name": "Bed_17",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_17"
+},
+{
+"name": "Bed_18",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bed"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bed_18"
+},
+{
+"name": "Bench1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bench"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bench1"
+},
+{
+"name": "Bench2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bench"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bench2"
+},
+{
+"name": "Bench3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bench"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bench3"
+},
+{
+"name": "Bench4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bench"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bench4"
+},
+{
+"name": "Bench5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bench"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bench5"
+},
+{
+"name": "Bench6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bench"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bench6"
+},
+{
+"name": "Bench7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bench"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Bench7"
+},
+{
+"name": "Chair1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chair"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Chair1"
+},
+{
+"name": "Chair2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chair"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Chair2"
+},
+{
+"name": "Chair3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chair"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Chair3"
+},
+{
+"name": "Chair4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chair"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Chair4"
+},
+{
+"name": "Cupboard1_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard1_1"
+},
+{
+"name": "Cupboard1_1_books",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard1_1_books"
+},
+{
+"name": "Cupboard1_1_pottery1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard1_1_pottery1"
+},
+{
+"name": "Cupboard1_1_pottery2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard1_1_pottery2"
+},
+{
+"name": "Cupboard1_1_pottery3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard1_1_pottery3"
+},
+{
+"name": "Cupboard1_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard1_2"
+},
+{
+"name": "Cupboard1_2_pottery1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard1_2_pottery1"
+},
+{
+"name": "Cupboard1_2_pottery2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard1_2_pottery2"
+},
+{
+"name": "Cupboard2_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard2_1"
+},
+{
+"name": "Cupboard2_1_books1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard2_1_books1"
+},
+{
+"name": "Cupboard2_1_books2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard2_1_books2"
+},
+{
+"name": "Cupboard2_1_pottery",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard2_1_pottery"
+},
+{
+"name": "Cupboard2_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard2_2"
+},
+{
+"name": "Cupboard2_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Cupboard"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Cupboard2_3"
+},
+{
+"name": "Furniture1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture1"
+},
+{
+"name": "Furniture10",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture10"
+},
+{
+"name": "Furniture10_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture10_1"
+},
+{
+"name": "Furniture10_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture10_2"
+},
+{
+"name": "Furniture11",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture11"
+},
+{
+"name": "Furniture11_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture11_1"
+},
+{
+"name": "Furniture11_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture11_2"
+},
+{
+"name": "Furniture12",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture12"
+},
+{
+"name": "Furniture13",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture13"
+},
+{
+"name": "Furniture14",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture14"
+},
+{
+"name": "Furniture15",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture15"
+},
+{
+"name": "Furniture2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture2"
+},
+{
+"name": "Furniture3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture3"
+},
+{
+"name": "Furniture4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture4"
+},
+{
+"name": "Furniture5_clock",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture5_clock"
+},
+{
+"name": "Furniture6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture6"
+},
+{
+"name": "Furniture6_pottery",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture6_pottery"
+},
+{
+"name": "Furniture7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture7"
+},
+{
+"name": "Furniture8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture8"
+},
+{
+"name": "Furniture9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Furniture"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Furniture9"
+},
+{
+"name": "Stool1_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stool"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Stool1_1"
+},
+{
+"name": "Stool2_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stool"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Stool2_1"
+},
+{
+"name": "Table1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table1"
+},
+{
+"name": "Table1B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table1B"
+},
+{
+"name": "Table2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table2"
+},
+{
+"name": "Table3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table3"
+},
+{
+"name": "Table4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table4"
+},
+{
+"name": "Table5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table5"
+},
+{
+"name": "Table5B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table5B"
+},
+{
+"name": "Table_Tawern1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table_Tawern1"
+},
+{
+"name": "Table_Tawern2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table_Tawern2"
+},
+{
+"name": "Table_Tawern3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table_Tawern3"
+},
+{
+"name": "Table_Tawern4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Table"],
+"prefabPath": "DesignRoom/Prefabs/Store/Furniture/Table_Tawern4"
+},
+{
+"name": "Candle1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Candle"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Candle1"
+},
+{
+"name": "Candle2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Candle"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Candle2"
+},
+{
+"name": "Candle3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Candle"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Candle3"
+},
+{
+"name": "Candle4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Candle"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Candle4"
+},
+{
+"name": "Candle5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Candle"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Candle5"
+},
+{
+"name": "Candle6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Candle"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Candle6"
+},
+{
+"name": "Chandelier1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier1"
+},
+{
+"name": "Chandelier2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier2"
+},
+{
+"name": "Chandelier2_Light",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier2_Light"
+},
+{
+"name": "Chandelier3_Light",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier3_Light"
+},
+{
+"name": "Chandelier4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier4"
+},
+{
+"name": "Chandelier4_light",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier4_light"
+},
+{
+"name": "Chandelier5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier5"
+},
+{
+"name": "Chandelier5_light",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier5_light"
+},
+{
+"name": "Chandelier6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier6"
+},
+{
+"name": "Chandelier6_light 1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier6_light 1"
+},
+{
+"name": "Chandelier6_light",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Chandelier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Chandelier6_light"
+},
+{
+"name": "Lamp1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Lamp"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Lamp1"
+},
+{
+"name": "Lamp2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Lamp"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Lamp2"
+},
+{
+"name": "Lamp2_Light",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Lamp"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Lamp2_Light"
+},
+{
+"name": "Torch1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Torch"],
+"prefabPath": "DesignRoom/Prefabs/Store/Lights/Torch1"
+},
+{
+"name": "Pottery1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery1"
+},
+{
+"name": "Pottery10",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery10"
+},
+{
+"name": "Pottery11",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery11"
+},
+{
+"name": "Pottery12",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery12"
+},
+{
+"name": "Pottery13",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery13"
+},
+{
+"name": "Pottery14",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery14"
+},
+{
+"name": "Pottery15",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery15"
+},
+{
+"name": "Pottery16",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery16"
+},
+{
+"name": "Pottery17",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery17"
+},
+{
+"name": "Pottery18",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery18"
+},
+{
+"name": "Pottery19",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery19"
+},
+{
+"name": "Pottery1B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery1B"
+},
+{
+"name": "Pottery2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery2"
+},
+{
+"name": "Pottery20",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery20"
+},
+{
+"name": "Pottery2B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery2B"
+},
+{
+"name": "Pottery3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery3"
+},
+{
+"name": "Pottery4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery4"
+},
+{
+"name": "Pottery5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery5"
+},
+{
+"name": "Pottery6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery6"
+},
+{
+"name": "Pottery7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery7"
+},
+{
+"name": "Pottery8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery8"
+},
+{
+"name": "Pottery9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery9"
+},
+{
+"name": "Pottery_grup1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup1"
+},
+{
+"name": "Pottery_grup2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup2"
+},
+{
+"name": "Pottery_grup3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup3"
+},
+{
+"name": "Pottery_grup4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup4"
+},
+{
+"name": "Pottery_grup5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup5"
+},
+{
+"name": "Pottery_grup6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup6"
+},
+{
+"name": "Pottery_grup7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup7"
+},
+{
+"name": "Pottery_grup8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup8"
+},
+{
+"name": "Pottery_grup9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pottery"],
+"prefabPath": "DesignRoom/Prefabs/Store/Pottery/Pottery_grup9"
+},
+{
+"name": "Barrel1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Barrel"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Barrel1"
+},
+{
+"name": "Barrel2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Barrel"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Barrel2"
+},
+{
+"name": "Barrel3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Barrel"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Barrel3"
+},
+{
+"name": "Barrel4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Barrel"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Barrel4"
+},
+{
+"name": "Basin1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Basin"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Basin1"
+},
+{
+"name": "Broom",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Broom"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Broom"
+},
+{
+"name": "Bucket1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Bucket"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Bucket1"
+},
+{
+"name": "Crate1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Crate"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Crate1"
+},
+{
+"name": "Crate2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Crate"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Crate2"
+},
+{
+"name": "Crate3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Crate"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Crate3"
+},
+{
+"name": "Crate4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Crate"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Crate4"
+},
+{
+"name": "Crate5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Crate"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Crate5"
+},
+{
+"name": "Crate6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Crate"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Crate6"
+},
+{
+"name": "Crate6_bottles",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Crate"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Crate6_bottles"
+},
+{
+"name": "Decal1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Decal"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Decal1"
+},
+{
+"name": "Decal2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Decal"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Decal2"
+},
+{
+"name": "Decal3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Decal"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Decal3"
+},
+{
+"name": "Decal4_Spiderweb",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Decal"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Decal4_Spiderweb"
+},
+{
+"name": "Decal5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Decal"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Decal5"
+},
+{
+"name": "Decal6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Decal"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Decal6"
+},
+{
+"name": "Globe",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Globe"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Globe"
+},
+{
+"name": "Ladder",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ladder"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Ladder"
+},
+{
+"name": "Lumber1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Lumber"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Lumber1"
+},
+{
+"name": "Lumber2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Lumber"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Lumber2"
+},
+{
+"name": "Lumber3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Lumber"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Lumber3"
+},
+{
+"name": "Lumber4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Lumber"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Lumber4"
+},
+{
+"name": "Lumber5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Lumber"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Lumber5"
+},
+{
+"name": "Pack1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pack"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pack1"
+},
+{
+"name": "Paint1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Paint"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Paint1"
+},
+{
+"name": "Paint2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Paint"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Paint2"
+},
+{
+"name": "Paint3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Paint"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Paint3"
+},
+{
+"name": "Paint4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Paint"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Paint4"
+},
+{
+"name": "Paint5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Paint"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Paint5"
+},
+{
+"name": "Paint6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Paint"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Paint6"
+},
+{
+"name": "Pillow1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow1"
+},
+{
+"name": "Pillow10A",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow10A"
+},
+{
+"name": "Pillow10B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow10B"
+},
+{
+"name": "Pillow2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow2"
+},
+{
+"name": "Pillow3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow3"
+},
+{
+"name": "Pillow4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow4"
+},
+{
+"name": "Pillow5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow5"
+},
+{
+"name": "Pillow6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow6"
+},
+{
+"name": "Pillow7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow7"
+},
+{
+"name": "Pillow8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow8"
+},
+{
+"name": "Pillow9A",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow9A"
+},
+{
+"name": "Pillow9B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillow"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Pillow9B"
+},
+{
+"name": "Sack1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Sack"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Sack1"
+},
+{
+"name": "Sack2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Sack"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Sack2"
+},
+{
+"name": "Sack3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Sack"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Sack3"
+},
+{
+"name": "Shield1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Shield"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Shield1"
+},
+{
+"name": "Shield2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Shield"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Shield2"
+},
+{
+"name": "Shield3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Shield"],
+"prefabPath": "DesignRoom/Prefabs/Store/Props/Shield3"
+},
+{
+"name": "Stairs1_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs1_1"
+},
+{
+"name": "Stairs1_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs1_2"
+},
+{
+"name": "Stairs1_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs1_3"
+},
+{
+"name": "Stairs2_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs2_1"
+},
+{
+"name": "Stairs2_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs2_2"
+},
+{
+"name": "Stairs3_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs3_1"
+},
+{
+"name": "Stairs3_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs3_2"
+},
+{
+"name": "Stairs3_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs3_3"
+},
+{
+"name": "Stairs3_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Stairs"],
+"prefabPath": "DesignRoom/Prefabs/Store/Stairs/Stairs3_4"
+},
+{
+"name": "Barrier1_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Barrier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Barrier1_1"
+},
+{
+"name": "Barrier1_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Barrier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Barrier1_2"
+},
+{
+"name": "Barrier2_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Barrier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Barrier2_1"
+},
+{
+"name": "Barrier2_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Barrier"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Barrier2_2"
+},
+{
+"name": "Brickwall_el1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Brickwall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Brickwall_el1"
+},
+{
+"name": "Brickwall_el2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Brickwall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Brickwall_el2"
+},
+{
+"name": "Brickwall_el3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Brickwall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Brickwall_el3"
+},
+{
+"name": "Brickwall_el4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Brickwall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Brickwall_el4"
+},
+{
+"name": "Brickwall_el5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Brickwall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Brickwall_el5"
+},
+{
+"name": "Doors1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Doors"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Doors1"
+},
+{
+"name": "Doors2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Doors"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Doors2"
+},
+{
+"name": "Fireplace1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Fireplace"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Fireplace1"
+},
+{
+"name": "Ground1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground1"
+},
+{
+"name": "Ground1_flip",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground1_flip"
+},
+{
+"name": "Ground2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground2"
+},
+{
+"name": "Ground2_flip",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground2_flip"
+},
+{
+"name": "Ground2_hole1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground2_hole1"
+},
+{
+"name": "Ground2_hole2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground2_hole2"
+},
+{
+"name": "Ground3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground3"
+},
+{
+"name": "Ground3_flip",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground3_flip"
+},
+{
+"name": "Ground_el1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Ground"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Ground_el1"
+},
+{
+"name": "Pillar1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar1"
+},
+{
+"name": "Pillar10A",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar10A"
+},
+{
+"name": "Pillar10B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar10B"
+},
+{
+"name": "Pillar10C",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar10C"
+},
+{
+"name": "Pillar11A",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar11A"
+},
+{
+"name": "Pillar11B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar11B"
+},
+{
+"name": "Pillar2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar2"
+},
+{
+"name": "Pillar3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar3"
+},
+{
+"name": "Pillar4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar4"
+},
+{
+"name": "Pillar4B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar4B"
+},
+{
+"name": "Pillar5A",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar5A"
+},
+{
+"name": "Pillar5B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar5B"
+},
+{
+"name": "Pillar6A",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar6A"
+},
+{
+"name": "Pillar6B",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar6B"
+},
+{
+"name": "Pillar7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar7"
+},
+{
+"name": "Pillar8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar8"
+},
+{
+"name": "Pillar9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Pillar"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Pillar9"
+},
+{
+"name": "Wall1_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_1"
+},
+{
+"name": "Wall1_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_2"
+},
+{
+"name": "Wall1_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_3"
+},
+{
+"name": "Wall1_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_4"
+},
+{
+"name": "Wall1_5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_5"
+},
+{
+"name": "Wall1_6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_6"
+},
+{
+"name": "Wall1_7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_7"
+},
+{
+"name": "Wall1_8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_8"
+},
+{
+"name": "Wall1_9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall1_9"
+},
+{
+"name": "Wall2_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_1"
+},
+{
+"name": "Wall2_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_2"
+},
+{
+"name": "Wall2_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_3"
+},
+{
+"name": "Wall2_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_4"
+},
+{
+"name": "Wall2_5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_5"
+},
+{
+"name": "Wall2_6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_6"
+},
+{
+"name": "Wall2_7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_7"
+},
+{
+"name": "Wall2_8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_8"
+},
+{
+"name": "Wall2_9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall2_9"
+},
+{
+"name": "Wall3_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall3_1"
+},
+{
+"name": "Wall3_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall3_2"
+},
+{
+"name": "Wall3_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall3_3"
+},
+{
+"name": "Wall3_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall3_4"
+},
+{
+"name": "Wall3_5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall3_5"
+},
+{
+"name": "Wall3_6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall3_6"
+},
+{
+"name": "Wall3_7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall3_7"
+},
+{
+"name": "Wall3_8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall3_8"
+},
+{
+"name": "Wall4_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall4_1"
+},
+{
+"name": "Wall4_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall4_2"
+},
+{
+"name": "Wall4_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall4_3"
+},
+{
+"name": "Wall4_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall4_4"
+},
+{
+"name": "Wall4_5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall4_5"
+},
+{
+"name": "Wall4_6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall4_6"
+},
+{
+"name": "Wall5_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall5_1"
+},
+{
+"name": "Wall5_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall5_2"
+},
+{
+"name": "Wall5_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall5_3"
+},
+{
+"name": "Wall5_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall5_4"
+},
+{
+"name": "Wall5_5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall5_5"
+},
+{
+"name": "Wall5_6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall5_6"
+},
+{
+"name": "Wall6_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_1"
+},
+{
+"name": "Wall6_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_2"
+},
+{
+"name": "Wall6_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_3"
+},
+{
+"name": "Wall6_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_4"
+},
+{
+"name": "Wall6_5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_5"
+},
+{
+"name": "Wall6_6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_6"
+},
+{
+"name": "Wall6_7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_7"
+},
+{
+"name": "Wall6_8",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_8"
+},
+{
+"name": "Wall6_9",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall6_9"
+},
+{
+"name": "Wall_bckg1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_bckg1"
+},
+{
+"name": "Wall_bckg2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_bckg2"
+},
+{
+"name": "Wall_bckg3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_bckg3"
+},
+{
+"name": "Wall_bckg4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_bckg4"
+},
+{
+"name": "Wall_bckg5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_bckg5"
+},
+{
+"name": "Wall_bckg6",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_bckg6"
+},
+{
+"name": "Wall_bckg7",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_bckg7"
+},
+{
+"name": "Wall_el1_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el1_1"
+},
+{
+"name": "Wall_el1_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el1_2"
+},
+{
+"name": "Wall_el1_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el1_3"
+},
+{
+"name": "Wall_el2_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el2_1"
+},
+{
+"name": "Wall_el2_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el2_2"
+},
+{
+"name": "Wall_el2_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el2_3"
+},
+{
+"name": "Wall_el2_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el2_4"
+},
+{
+"name": "Wall_el3_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el3_1"
+},
+{
+"name": "Wall_el3_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el3_2"
+},
+{
+"name": "Wall_el3_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el3_3"
+},
+{
+"name": "Wall_el3_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el3_4"
+},
+{
+"name": "Wall_el4_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el4_1"
+},
+{
+"name": "Wall_el4_2",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el4_2"
+},
+{
+"name": "Wall_el4_3",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el4_3"
+},
+{
+"name": "Wall_el4_4",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el4_4"
+},
+{
+"name": "Wall_el4_5",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el4_5"
+},
+{
+"name": "Wall_el5_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el5_1"
+},
+{
+"name": "Wall_el6_1",
+"dimensionX": 0.15,
+"dimensionY": 0.15,
+"dimensionZ": 0.15,
+"tags": ["Wall"],
+"prefabPath": "DesignRoom/Prefabs/Store/Walls Grounds/Wall_el6_1"
+}
+]
+}
